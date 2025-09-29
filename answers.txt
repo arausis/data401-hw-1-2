@@ -1,0 +1,35 @@
+What is the average number of hours students study per week?
+17.52114
+
+Given a student, what is the average number of hours of sleep they receive per night?
+6.51442
+
+What proportion of students come from a home with no internet access?
+49.6% of students come from a home with no internet access
+
+How does a student’s participation score differ between income levels (low, medium, high)?
+Family_Income_Level
+High      71.712171
+Low       71.709865
+Medium    71.535062
+Name: Total_Score, dtype: float64
+No, not significantly
+
+Does parent education level impact students' average score on quizzes and assignments?
+                        Quizzes_Avg  Assignments_Avg
+Parent_Education_Level                              
+Bachelor's                75.144402        75.191882
+High School               75.040180        74.313892
+Master's                  74.921570        75.407050
+PhD                       73.951897        75.054249
+No, not significantly
+
+Does the student's stress level have a huge impact on how well they perform on final exams?
+No, the correlation coefficient is only -0.004479427413335168 which is not significant
+
+Does participation in extracurricular activities impact the amount of hours that a student studies per week?
+Extracurricular_Activities
+No     17.439550
+Yes    17.601951
+Name: Study_Hours_per_Week, dtype: float64
+No, not significantly
